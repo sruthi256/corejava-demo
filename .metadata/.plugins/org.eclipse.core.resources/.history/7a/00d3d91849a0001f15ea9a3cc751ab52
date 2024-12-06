@@ -1,0 +1,17 @@
+package tollbooth;
+
+/**
+* Author : Kopparapu.Sruthi
+* Date   : 11 Nov 2024
+* Time   : 9:51:33 pm
+* Email  : Kopparapu.Sruthi@coforge.com
+*/
+
+public class TestTollBooth {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

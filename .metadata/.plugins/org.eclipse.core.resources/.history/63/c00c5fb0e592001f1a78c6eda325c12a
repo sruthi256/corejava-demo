@@ -1,0 +1,17 @@
+package assignments;
+
+/**
+* Author : Kopparapu.Sruthi
+* Date   : 25 Oct 2024
+* Time   : 8:54:42 pm
+* Email  : Kopparapu.Sruthi@coforge.com
+*/
+
+public class StarSequence {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

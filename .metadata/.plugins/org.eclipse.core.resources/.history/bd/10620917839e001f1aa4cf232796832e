@@ -1,0 +1,17 @@
+package java8features;
+
+/**
+* Author : Kopparapu.Sruthi
+* Date   : 9 Nov 2024
+* Time   : 3:41:42 pm
+* Email  : Kopparapu.Sruthi@coforge.com
+*/
+
+public class OptionalDemo2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

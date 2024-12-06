@@ -1,0 +1,23 @@
+package tollbooth;
+
+/**
+* Author : Kopparapu.Sruthi
+* Date   : 11 Nov 2024
+* Time   : 9:35:01 pm
+* Email  : Kopparapu.Sruthi@coforge.com
+*/
+
+public class AlleghenyTollBooth implements  Tollbooth{
+	private int totalTrucks;
+	private int totalReceipts;
+	public void calculateToll(Truck truck) {
+		int toll = 5 * truck.getAxles() + 10 * (truck.getWeight() / 500);
+		totalReceipts += toll;
+		totalTrucks++;
+		System.out.println("Arrival of " + truck.getbrand() + " Truck");
+		System.out.println("Truck arrival - Axles: " + truck.getAxles() + " Total weight: "
+				+ truck.getWeight() + " Toll due: $" + toll);
+ 
+	}
+
+}

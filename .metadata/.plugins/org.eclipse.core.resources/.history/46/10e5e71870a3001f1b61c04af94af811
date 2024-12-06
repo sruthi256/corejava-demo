@@ -1,0 +1,17 @@
+package assesment2;
+
+/**
+* Author : Kopparapu.Sruthi
+* Date   : 15 Nov 2024
+* Time   : 10:08:18 pm
+* Email  : Kopparapu.Sruthi@coforge.com
+*/
+
+public class LongestSubString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

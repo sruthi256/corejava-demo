@@ -1,0 +1,44 @@
+package assesment2;
+
+import java.util.Scanner;
+
+/**
+ * Author : Kopparapu.Sruthi
+ * Date   : 4 Nov 2024
+ * Time   : 10:52:02 am
+ * Email  : Kopparapu.Sruthi@coforge.com
+ */
+
+public class RotateArray {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		System.out.print("Enter n value: ");
+		int n = sc.nextInt();
+		System.out.print("Enter k value: ");
+		int k = sc.nextInt();
+
+		int[] arr = new int[n];
+		System.out.println("Enter the array elements:");
+		for (int i = 0; i < n; i++) {
+			arr[i] = sc.nextInt();
+		}
+		for(int i=0;i<=arr.length-1;i++)
+		{
+			arr[i]=sc.nextInt();
+		}
+	
+		for(int i=arr.length-k;i<=arr.length-1;i++)
+		{
+			System.out.print(arr[i]+" ");
+		}
+ 
+		
+		for(int i=0;i<=arr.length-k-1;i++)
+		{
+			System.out.print(arr[i]+" ");
+		}
+ 
+}
+}
